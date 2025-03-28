@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap');
+
+body{
+    padding: 10px  ;
+    text-align: center;
+    font-family: League Spartan;
+   
+}
+
+#topwords h2{
+    color: hsl(300, 43%, 22%);
+    font-size: 40px;
+    
+}
+#topwords p{
+    color: hsl(303, 10%, 53%);
+    font-size: 17px;
+}
+h4{
+    color: hsl(0, 0%, 100%);
+}
+
+.Stars{
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.personer{
+   color: hsl(300, 24%, 96%);
+   background-color:  hsl(300, 43%, 22%);
+   border-radius: 10px;
+   padding: 10px;
+   padding-bottom: 30px;
+   margin-bottom: 10px;
+
+}
+#card{
+    display: flex;
+}
+#pic img{
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+#linespace{
+    margin-top: -15px;
+    color: hsl(333, 80%, 67%) ;
+}
+@media(min-width: 600px){
+    #uppertop{
+        display: flex;
+        justify-content: space-around;
+    }
+    .Reviews{
+        margin-left: -30px;
+        margin-right: 80px;
+    }
+    .Report{
+        margin-left: -20px;
+        margin-right: 20px;
+    }
+    .Stars{
+        width: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 20px;
+    }
+    #lowerdown{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .personer{
+        width: 180px;
+        height: 200px;
+       
+    }
+    .Roberts{
+        margin-top: 30px;
+    }
+    .Wallace{
+        margin-top: 60px;
+    }
+}
+@media(min-width: 1024px){
+    #uppertop{
+        display: flex;
+        justify-content: space-around;
+    }
+    .Reviews{
+        margin-left: -200px;
+        margin-right: 90px;
+    }
+    .Report{
+        margin-left: -150px;
+        margin-right: 50px;
+    }
+    .Best{
+        margin-left: -70px;
+        margin-right: 10px;
+    }
+    .Stars{
+        width: 150%;
+        flex-direction: row;
+    } 
+    .personer{
+        width: 325px;
+        height: 150px;
+       
+    }
+    .Roberts{
+        margin-top: 30px;
+    }
+    .Wallace{
+        margin-top: 60px;
+    }
+}
